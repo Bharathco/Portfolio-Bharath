@@ -25,7 +25,7 @@ const NavBar = () => {
        
         <div className="m-8 flex items-center justify-centergap-4 text-2xl gap-5">
         <a
-          href="https://drive.google.com/file/d/1Xp5Hfk-10h-XbKx0QbtBsTOXDKjR8elN/view?usp=sharing"
+          href="https://www.linkedin.com/in/bharath-rajashekar-69b2591a7/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 hover:text-blue-700"
