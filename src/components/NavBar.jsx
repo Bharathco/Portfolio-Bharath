@@ -49,20 +49,18 @@ const NavBar = () => {
         </a>
             
         <a
-          href="https://drive.google.com/file/d/1Xp5Hfk-10h-XbKx0QbtBsTOXDKjR8elN/view?usp=sharing"
-          download="Bharath_Rajashekar_Resume.pdf"
-          target="_blank"
-          className="relative text-green-500 hover:text-green-700"
-          onMouseEnter={handleHover}
-          onMouseLeave={handleMouseLeave}
-        >
-          <BiDownload />
-          {isHovering && (
-              <span className="absolute  text-white text-xs px-1 py-1 top-full left-1/2 transform -translate-x-1/2 -translate-y-0.5">
-              Resume
-            </span>
-          )}
-        </a>
+             href="https://drive.google.com/file/d/16pi9Jc24GePOPX0okrAhQBzaqxTi-1EV/view?usp=sharing"
+              download="Bharath_Rajashekar_Resume.pdf"
+              target="_blank"
+           className="relative text-green-500 hover:text-green-700"
+              >
+            <BiDownload />
+               <span className="absolute text-gray-300 text-xs px-1 py-1 top-full left-1/2 transform -translate-x-1/2 -translate-y-0.5">
+                  Resume
+                    </span>
+                </a>
+
+
         </div>
       </nav>
   );
