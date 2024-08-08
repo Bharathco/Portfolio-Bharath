@@ -1,6 +1,7 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
+import project4 from "../assets/projects/picture-4.png";
 
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With hands-on experience from an on-site Internship, I have honed my skills in front-end technologies like HTML, CSS, Javascript, TailwindCSS and ReactJS as well as working on back-end technologies like NodeJs, ExpressJs, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -34,6 +35,14 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+
+  {
+    title: "MockXpert-AI Interview Mocker",
+    image: project4,
+    description:
+      "Developed a Full-Stack AI-powered interview preparation web app that simulates mock interviews with AI-generated questions, records user responses, and provides detailed feedback to enhance interview skills. Implemented user authentication and account management features to enhance user experience and security.",
+    technologies: ["NextJs", "ReactJs","TailwindCSS", "GenerativeAI", "Javascript", "Clerk Authentication", "Drizzle ORM"],
+  },
  
   {
     title: "Landmark Detection Project",
